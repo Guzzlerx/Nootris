@@ -1,0 +1,7 @@
+.discount {
+    background-color: rgba(17, 17, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 110px 64px;
+    display: flex;
+    flex-direction: column;
+}

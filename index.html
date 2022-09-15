@@ -16,23 +16,13 @@
                     alt="Логотип сайта"
                 />
                 <nav class="header__menu">
-                    <ul class="header__menu-item">
-                        FAQ
-                    </ul>
-                    <ul class="header__menu-item">
-                        Оплата и доставка
-                    </ul>
-                    <ul class="header__menu-item">
-                        Возврат
-                    </ul>
-                    <ul class="header__menu-item">
-                        Исследования
-                    </ul>
-                    <ul class="header__menu-item">
-                        Личный кабинет
-                    </ul>
-                    <ul class="header__menu-item">
-                        8 (800) 600-09-90
+                    <ul class="header__menu-links">
+                        <li class="header__menu-link">FAQ</li>
+                        <li class="header__menu-link">Оплата и доставка</li>
+                        <li class="header__menu-link">Возврат</li>
+                        <li class="header__menu-link">Исследования</li>
+                        <li class="header__menu-link">Личный кабинет</li>
+                        <li class="header__menu-link">8 (800) 600-09-90</li>
                     </ul>
                 </nav>
                 <img
@@ -44,9 +34,87 @@
 
             <main class="content">
                 <section class="promo">
-                    <div class="promo__overlay">
-                        <h1 class="promo__title">АКТИВИРУЙ ИММУНИТЕТ!</h1>
+                    <div class="promo__background-image"></div>
+                    <div class="promo__background-overlay"></div>
+                    <img
+                        src="./images/promo-image.svg"
+                        class="promo__image"
+                        alt="Витамины Nootris"
+                    />
+                    <div class="promo__text">
+                        <h1 class="promo__title">
+                            АКТИВИРУЙ<br />
+                            ИММУНИТЕТ!
+                        </h1>
+                        <p class="promo__subtitle">
+                            Всего пять секунд в день помогут укрепить иммунитет
+                            и повысить защитные силы организма
+                        </p>
+                        <h3 class="promo__about-title">NOOTRIS ПОМОГАЕТ</h3>
+                        <p class="promo__about-subtitle">
+                            Вашему организму во время пандемии и сезонных
+                            простуд
+                        </p>
                     </div>
+                </section>
+
+                <section class="discount">
+                    <h2 class="discount__title">
+                        ПОЛУЧИ ЗАЩИТУ ИММУНИТЕТА <br />
+                        <span class="discount__span">
+                            СО СКИДКОЙ -15% ПЕРВЫМ!</span
+                        >
+                    </h2>
+                    <div class="discount__price-container">
+                        <p class="discount__price">750₽</p>
+                        <p class="discount__price">690₽</p>
+                    </div>
+                    <ul class="discount__info">
+                        <li class="discount__item-container">
+                            <img
+                                class="discount__item-image"
+                                src="./images/ginger.svg"
+                                alt="Имбирь"
+                            />
+                            <p class="discount__item-about">
+                                Содержит<br />
+                                <span class="discount__span">имбирь</span>
+                            </p>
+                        </li>
+                        <li class="discount__item-container">
+                            <img
+                                class="discount__item-image"
+                                src="./images/nootris.svg"
+                                alt="Витамины Nootris"
+                            />
+                            <p class="discount__item-about">
+                                + Бесплатная доставка<br />
+                                <span
+                                    class="discount__span discount__item-span"
+                                >
+                                    Специальная цена</span
+                                >
+                            </p>
+                        </li>
+                        <li class="discount__item-container">
+                            <img
+                                class="discount__item-image"
+                                src="./images/virus.svg"
+                                alt="Вирус"
+                            />
+                            <p class="discount__item-about">
+                                Нейтрализует<br />
+                                <span class="discount__span">вирусы</span>
+                            </p>
+                        </li>
+                    </ul>
+                    <button
+                        type="submit"
+                        name="submit"
+                        class="discount__button"
+                    >
+                        Оформить заказ!
+                    </button>
                 </section>
             </main>
         </div>

@@ -1,0 +1,6 @@
+.header__menu-links {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    padding: 0;
+}

@@ -1,0 +1,10 @@
+.discount__item-container {
+    font-size: 18px;
+    line-height: 21.33px;
+    text-align: center;
+}
+
+.discount__item-container:nth-of-type(2n) {
+    font-size: 36px;
+    line-height: 42.66px;
+}

@@ -1,0 +1,13 @@
+.discount__price {
+    font-size: 48px;
+    line-height: 56.88px;
+    margin: 0;
+}
+
+.discount__price:first-of-type {
+    text-decoration: line-through;
+    margin-right: 32px;
+    font-size: 36px;
+    line-height: 42.66px;
+    color: rgba(173, 173, 173, 1);
+}

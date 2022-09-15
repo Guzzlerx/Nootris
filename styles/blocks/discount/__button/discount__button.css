@@ -1,0 +1,15 @@
+.discount__button {
+    width: 256px;
+    height: 56px;
+    margin-top: 64px;
+    align-self: center;
+    background-color: rgba(252, 181, 0, 1);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: opacity ease 0.5s;
+}
+
+.discount__button:hover {
+    opacity: 0.5;
+}

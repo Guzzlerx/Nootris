@@ -1,0 +1,7 @@
+.discount__price-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 0 59px 0;
+}
