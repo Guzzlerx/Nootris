@@ -1,0 +1,7 @@
+.header__menu {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 24px;
+}

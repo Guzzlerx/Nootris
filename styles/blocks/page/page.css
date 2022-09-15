@@ -1,0 +1,13 @@
+.page {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Rubik';
+    background-color: #111;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 1);
+    min-width: 320px;
+    min-height: 100vh;
+}

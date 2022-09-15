@@ -1,0 +1,9 @@
+.header__basket {
+    width: 40px;
+    cursor: pointer;
+    transition: opacity ease 0.5s;
+}
+
+.header__basket:hover {
+    opacity: 0.5;
+}

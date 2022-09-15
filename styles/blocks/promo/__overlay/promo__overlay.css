@@ -1,0 +1,24 @@
+.promo__overlay {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(
+        306.68deg,
+        #f9da3a -0.6%,
+        #f2de00 21.78%,
+        #fdd535 65.18%,
+        #fdd535 65.18%
+    );
+    padding: 96px 64px;
+}
+
+.promo__overlay::before {
+    content: '';
+    background: url('../../../../images/bg-linear.svg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
