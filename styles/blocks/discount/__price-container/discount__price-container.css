@@ -5,3 +5,9 @@
     align-items: center;
     margin: 85px 0 59px 0;
 }
+
+@media screen and (max-width: 500px) {
+    .discount__price-container {
+        margin: 60px 0 50px 0;
+    }
+}

@@ -5,3 +5,17 @@
     line-height: 56.88px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 585px) {
+    .discount__title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .discount__title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+}

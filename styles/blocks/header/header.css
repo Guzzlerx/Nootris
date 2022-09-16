@@ -4,3 +4,27 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 1130px) {
+    .header {
+        padding: 23px 30px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        padding: 23px 20px 23px 20px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .header {
+        padding: 23px 0;
+    }
+}

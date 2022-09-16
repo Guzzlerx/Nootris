@@ -8,3 +8,29 @@
     font-size: 36px;
     line-height: 42.66px;
 }
+
+@media screen and (max-width: 870px) {
+    .discount__item-container:nth-of-type(2n) {
+        font-size: 20px;
+        line-height: 21px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .discount__item-container {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .discount__item-container:nth-of-type(2n) {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .discount__item-container:nth-of-type(2n) {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

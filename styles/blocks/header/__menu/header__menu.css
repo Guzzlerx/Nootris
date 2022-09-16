@@ -3,3 +3,17 @@
     font-size: 18px;
     line-height: 24px;
 }
+
+@media screen and (max-width: 530px) {
+    .header__menu {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__menu {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

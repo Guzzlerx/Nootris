@@ -3,3 +3,9 @@
     margin: 96px 64px;
     color: black;
 }
+
+@media screen and (max-width: 600px) {
+    .promo__text {
+        margin: 64px 40px;
+    }
+}

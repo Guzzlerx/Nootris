@@ -4,3 +4,45 @@
     top: -85px;
     z-index: 2;
 }
+
+@media screen and (max-width: 1080px) {
+    .promo__image {
+        top: -50px;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 988px) {
+    .promo__image {
+        top: 0px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .promo__image {
+        top: 30px;
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .promo__image {
+        top: -30px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .promo__image {
+        top: -30px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .promo__image {
+        top: 20px;
+        width: 300px;
+    }
+}

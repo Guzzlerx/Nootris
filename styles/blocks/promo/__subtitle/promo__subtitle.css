@@ -1,6 +1,13 @@
 .promo__subtitle {
     font-size: 24px;
     line-height: 28.44px;
-    width: 672px;
+    max-width: 672px;
     margin: 24px 0;
+}
+
+@media screen and (max-width: 590px) {
+    .promo__subtitle {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
